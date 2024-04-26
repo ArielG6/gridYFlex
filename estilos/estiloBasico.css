@@ -1,0 +1,15 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.imagen {
+    height: auto;
+    width: 100px;
+    padding: 10px;
+}
+
+.contenedor > div {
+    align-self: center;
+}
